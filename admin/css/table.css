@@ -1,0 +1,31 @@
+.content table{
+     margin: 10px auto;
+}
+.bitch{
+    margin: 10px auto;
+    border:solid 1px #015d86;
+    border-collapse: collapse;
+    margin: 5px;
+}
+
+
+.bitch th{
+    text-transform: uppercase;
+    font-size:0.9em;
+    background: #015d86;
+    color: #003B23;
+    padding: 10px;
+}
+
+.bitch tr th {
+    background: #f5fbfb;
+}
+
+.bitch tr td{
+    padding: 0 10px;
+}
+
+.dog td{
+    color: red;
+
+}
