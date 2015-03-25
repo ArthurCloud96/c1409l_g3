@@ -1,8 +1,4 @@
 <?php
-require_once './admin_header.php';
-?>
-
-<?php
 require './process/_inc.php';
 
 
@@ -15,7 +11,7 @@ $result = execute_query($query);
 ?>
 
 
-<table border="1" class="bitch">
+<table border="1">
     <tr>		
         <th>Category Name</th>
     </tr>
@@ -23,20 +19,15 @@ $result = execute_query($query);
 <?php
 while (($row = mysqli_fetch_assoc($result))) {
     ?>
-        <tr class="dog">
+        <tr>
             <td><?php echo $row["name"] ?></td>
-            <td><a href="category_edit.php?catid=<?php echo $row["catid"] ?>"><img src="admin_imgs/images.png"/></a></td>
-            <td><a href="process/category.php?do=delete&catid=<?php echo $row["catid"] ?>"><img src="admin_imgs/Close_Box_Red.png"/></a></td>
+            <td><a href="category_edit.php?catid=<?php echo $row["catid"] ?>">Edit</a></td>
+            <td><a href="process/category.php?do=delete&catid=<?php echo $row["catid"] ?>">Delete</a></td>
         </tr>	
 <?php } ?>	
 </table>
 
-<a href="category_addnew.php">Add new category | </a>
+<a href="category_addnew.php">Add new category</a>
+<a href ="process/admin.php?do=logout">Logout</a>
 
-
-
-
-<?php
-require_once './admin_footer.php';
-?>
 

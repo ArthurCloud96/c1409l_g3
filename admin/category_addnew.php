@@ -1,13 +1,10 @@
 <?php
-require_once './admin_header.php';
-?>
-<?php
 require './process/_inc.php';
 ?>
 <form action="process/category.php?do=add_new" method="post">
     <table>
-
-        <tr>
+				
+       <tr>
             <th>Name</th>
             <td><input type="text" name="name" id="name" /></td>
         </tr>
@@ -18,7 +15,3 @@ require './process/_inc.php';
         </tr>							
     </table>
 </form>
-<?php
-require_once './admin_footer.php';
-?>
-

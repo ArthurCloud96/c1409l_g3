@@ -37,12 +37,7 @@ require_once '../include/process.php';
             h1:hover{
                 color: #CE8F30;
             }
-            th,td{
-                padding-top:15px;
-            }
-            th{
-                padding-right: 5px;
-            }
+
         </style>
     </head>
     <body>
@@ -61,7 +56,7 @@ require_once '../include/process.php';
 
                 <tr>
                     <th></th>
-                    <td style="text-align: center;"><input type="submit" value="Login" style="color: #003B23;"/></td>
+                    <td><input type="submit" value="Login" style="color: #003B23;text-align: right;"/></td>
                 </tr>
 
                 <tr>

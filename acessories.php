@@ -29,7 +29,7 @@ require_once './inc_new.php';
                     <h4>Code:</h4><p> </p>
                     <h4>Price:</h4><p> </p>
                     <h4>Description:</h4><p> </p>
-                    <input type="submit" name='Order' value='Add to your cart' style='margin-left: 16em;'/>
+                    <input type="submit" name='Order' value='Order' style='margin-left: 16em;'/>
                 </div>  
             </div>
             <div class='product'>
@@ -39,7 +39,7 @@ require_once './inc_new.php';
                     <h4>Code:</h4><p> </p>
                     <h4>Price:</h4><p> </p>
                     <h4>Description:</h4><p> </p>
-                    <input type="submit" name='Order' value='Add to your cart' style='margin-left: 16em;'/>
+                    <input type="submit" name='Order' value='Order' style='margin-left: 16em;'/>
                 </div>  
             </div>
 

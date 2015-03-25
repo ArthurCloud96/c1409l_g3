@@ -9,7 +9,7 @@ require_once './inc_new.php';
     <div class='middle'>
         <div class='middle-left'>
             <ul>
-                <li class='list2'><a href="acessories.php">ACCESSORIES</a></li>
+                <li class='list2'><a href="temp_product_list.php">ACCESSORIES</a></li>
                 <li class='list2'><a></a></li>
                 <li class='list2'><a></a></li>
                 <li class="list2">&nbsp;</li>

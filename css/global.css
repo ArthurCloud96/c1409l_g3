@@ -14,7 +14,6 @@ body{
     min-height:1000px;
     min-width: 1000px;
     //background-image: url(../imgs/aboutBG.png)
-    
 }
 
 #body{
@@ -45,15 +44,12 @@ nav{
     font-family: 'Roboto', sans-serif;
     font-size: 1.3em;
     border: #003B23 1px ridge;
-    background-image: linear-gradient(gold,#CE8F30);/* thay doi mau cua nav*/
-    /*border-radius: 8px;/* /*thay doi goc cua hinh*/
- 
+    background-image: linear-gradient(#CE8F30,orange);
 }
 
 .nav-button{
     margin-left: 25px;
     text-align: center;
-
 }
 .nav-button:hover{
     font-weight: bold;
@@ -76,13 +72,24 @@ nav{
 }
 
 #body{
+
     background-image: url(../imgs/slideshow_ahmad-tea1.png);
     display:block;
     height:400px;
     border: #003B23 1px double;
     overflow: auto;
+ 
 }
 
+.list
+{
+    text-decoration: none;
+    text-decoration-color:#003B23 !important;
+    position: relative;
+}
+.nav-button ul li{
+    position: absolute;
+}
 
 #left-bar{
     width:200px;
@@ -130,6 +137,7 @@ form{
     font-size: 17px;
     display: block;
     margin: 0 auto;
+    margin-top: 20px;
 }
 
 
@@ -154,7 +162,7 @@ ul #list1{
 
 ul.list-inline
 {
-    list-style: none; 
+    /* list-style: none; */
     display: inline-block;
     margin: 0px;
     padding: 0px;
@@ -179,8 +187,6 @@ h2{
     margin:0;
     text-align: center;
 }
-
-
 
 
 
@@ -276,7 +282,6 @@ table.form .error {
     border-bottom: #918269 1px solid;
     border-left:  #918269 1px solid;
     border-right:  #918269 1px solid;
-
 }
 
 .middle-right p h3{
@@ -347,23 +352,22 @@ strong{
 
 .product{
     overflow: auto;
-    margin: 10px;
-    padding: 5px;
-    border-bottom: #F2F2F2 1px solid;
-    border-top: #F2F2F2 1px solid;
-    width:650px;
+    /* margin: 10px; */
+    /* padding: 5px; */
+    /* border-bottom: #F2F2F2 1px solid; */
+    /* border-top: #F2F2F2 1px solid; */
+    width: 170px;
     float: left;
 }
 .pic-pro{
-    float: left;
-    border: #CE8F30 1px solid;    
+    
 }
 
 .info-pro{
-    float: left;
-    width: 498px;
-    text-indent: 10px;
+    display: none;
 }
+
+
 
 .info-pro h4 {
     padding: -5px;
@@ -373,4 +377,19 @@ strong{
 
 .submit{
     float:left;
+}
+
+.paging
+{
+    margin: 0 auto;
+    width: 630px;
+    text-align: center;
+    //float: left;
+    overflow: auto;
+}
+
+h3
+{
+padding-left: 15px;
+padding-right: 5px;
 }

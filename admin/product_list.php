@@ -1,8 +1,4 @@
 <?php
-require_once './admin_header.php';
-?>
-
-<?php
 require_once './process/_inc.php';
 
 $p = get("p");
@@ -29,24 +25,26 @@ $result = execute_query($query);
 
 
 
-<table border="1" class="bitch">
+<table border="1">
     <tr>
         <th>Category</th>
         <th>Product Name</th>
         <th>Price</th>
+        <th>Description</th>
         <th>Quantity</th>
     </tr>
 
     <?php
     while (($row = mysqli_fetch_assoc($result))) {
         ?>
-        <tr class="dog">
+        <tr>
             <td><?php echo $row["name"] ?></td>
             <td><?php echo $row["pname"] ?></td>
             <td><?php echo $row["price"] ?></td>
+            <td><?php echo $row["description"] ?></td>
             <td><?php echo $row["quantity"] ?></td>
-            <td><a href="product_edit.php?productid=<?php echo $row["productid"] ?>"><img src="admin_imgs/images.png"/></a></td>
-            <td><a href="process/product.php?do=delete&productid=<?php echo $row["productid"] ?>"><img src="admin_imgs/Close_Box_Red.png"/></a></td>
+            <td><a href="product_edit.php?productid=<?php echo $row["productid"] ?>">Edit</a></td>
+            <td><a href="process/product.php?do=delete&productid=<?php echo $row["productid"] ?>">Delete</a></td>
         </tr>	
     <?php } ?>	
 </table>
@@ -62,9 +60,7 @@ $result = execute_query($query);
 </div>
 
 <a href="product_addnew.php">Add new product</a>
+<a href ="process/product.php?do=logout">Logout</a>
 
 
 
-<?php
-require_once './admin_footer.php';
-?>

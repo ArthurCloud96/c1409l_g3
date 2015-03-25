@@ -1,7 +1,4 @@
 <?php
-require_once './admin_header.php';
-?>
-<?php
 require_once './process/_inc.php';
 
 $productid = get("productid");
@@ -32,6 +29,11 @@ if (mysqli_num_rows($result) > 0) {
                        value="<?php echo $row["price"] ?>" /></td>
         </tr>
 
+        <tr>
+            <th>Description</th>
+            <td><input type="text" name="description" id="description"
+                       value="<?php echo $row["description"] ?>" /></td>
+        </tr>
 
         <tr>
             <th>Quantity</th>
@@ -45,6 +47,3 @@ if (mysqli_num_rows($result) > 0) {
         </tr>
     </table>
 </form>
-<?php
-require_once './admin_footer.php';
-?>

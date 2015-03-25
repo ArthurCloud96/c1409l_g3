@@ -1,5 +1,5 @@
 
-<div id="abo-footer" >
+<div id="abo-footer">
     <div class="wrapper">
         <div class="shit">
             Phone number:    3 73 22 190 |   3 73 22 189

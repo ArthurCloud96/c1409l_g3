@@ -1,8 +1,4 @@
 <?php
-require_once './admin_header.php';
-?>
-
-<?php
 require './process/_inc.php';
 ?>
 <form action="process/manager.php?do=add_new" method="post">
@@ -39,7 +35,3 @@ require './process/_inc.php';
         </tr>							
     </table>
 </form>
-
-<?php
-require_once './admin_footer.php';
-?>

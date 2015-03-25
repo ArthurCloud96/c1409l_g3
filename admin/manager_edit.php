@@ -1,8 +1,4 @@
 <?php
-require_once './admin_header.php';
-?>
-
-<?php
 require_once './process/_inc.php';
 
 $man_id = get("man_id");
@@ -52,7 +48,3 @@ if (mysqli_num_rows($result) > 0) {
         </tr>
     </table>
 </form>
-
-<?php
-require_once './admin_footer.php';
-?>

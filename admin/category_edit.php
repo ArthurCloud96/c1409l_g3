@@ -1,8 +1,4 @@
 <?php
-require_once './admin_header.php';
-?>
-
-<?php
 require_once './process/_inc.php';
 
 $catid = get("catid");
@@ -28,7 +24,3 @@ if (mysqli_num_rows($result) > 0) {
         </tr>
     </table>
 </form>
-<?php
-require_once './admin_footer.php';
-?>
-

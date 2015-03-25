@@ -10,7 +10,7 @@ require_once './inc_new.php';
     <div class='middle'>
         <div class='middle-left'>
             <ul>
-                <li class='list2'><a href="abouttea.php">ABOUT AHMAD TEA</a></li>              
+                <li class='list2'><a href="abouttea.php">ABOUT AHMAD TEA</a></li>
                 <li class='list2'><a href="story.php">STORY</a></li>
                 <li class='list2'><a href="ahworld.php">AHMAD IN THE WORLD</a></li>
                 <li class="list2">&nbsp;</li>
@@ -19,6 +19,7 @@ require_once './inc_new.php';
 
         <div class='middle-right'>
             <br/>
+
             <div class="icon">
                 <img src="imgs/about_icon.png"/>
                 <h1 class= "aat" >Ahmad in the World</h1>
@@ -32,7 +33,7 @@ require_once './inc_new.php';
                     </li>
                     <li>
                         <img src="Flags/an.gif"/>&nbsp;Andora                  
-                    </li>                  
+                    </li>
                     <li>
                         <img src="Flags/by.gif"/>&nbsp;Belarus                      
                     </li>
@@ -64,48 +65,27 @@ require_once './inc_new.php';
                         <img src="Flags/gr.gif"/>&nbsp;Moldova        
                     </li>
                     <li>
-                        <img src="Flags/nl.gif"/>&nbsp;Netherlands            
+                        <img src="Flags/.gif"/>&nbsp;Netherlands            
                     </li>
                     <li>
-                        <img src="Flags/no.gif"/>&nbsp;Norway            
+                        <img src="Flags/.gif"/>&nbsp;            
                     </li>
                     <li>
-                        <img src="Flags/pl.gif"/>&nbsp;Poland           
+                        <img src="Flags/.gif"/>&nbsp;           
                     </li>
                     <li>
-                        <img src="Flags/po.gif"/>&nbsp;Portugal           
+                        <img src="Flags/.gif"/>&nbsp;           
                     </li>
                     <li>
-                        <img src="Flags/ru.gif"/>&nbsp;Russia           
+                        <img src="Flags/.gif"/>&nbsp;           
                     </li>
                     <li>
-                        <img src="Flags/ro.gif"/>&nbsp;Romania           
+                        <img src="Flags/.gif"/>&nbsp;           
                     </li>
                     <li>
-                        <img src="Flags/sl.gif"/>&nbsp;Slovakia           
+                        <img src="Flags/.gif"/>&nbsp;           
                     </li>
-                    <li>
-                        <img src="Flags/ua.gif"/>&nbsp;Ukraine         
-                    </li>
-                    <li>
-                        <img src="Flags/fi.gif"/>&nbsp;Finland          
-                    </li>
-                    <li>
-                        <img src="Flags/cl.gif"/>&nbsp;Czech Republic          
-                    </li>
-                    <li>
-                        <img src="Flags/es.gif"/>&nbsp;Spain          
-                    </li>
-                    <li>
-                        <img src="Flags/se.gif"/>&nbsp;Sweden          
-                    </li>
-                    
-                    <li>
-                        <img src="Flags/sv.gif"/>&nbsp;Switzerland          
-                    </li>
-                    <li>
-                        <img src="Flags/tk.gif"/>&nbsp;Turkey        
-                    </li>
+
                 </ul>
             </div>
 
@@ -145,30 +125,6 @@ require_once './inc_new.php';
                 </li>
                 <li>
                     <img src="Flags/av.gif"/>&nbsp;New Zealand             
-                </li>
-                <li>
-                    <img src="Flags/.gif"/>&nbsp;Argentina      
-                </li>
-                <li>
-                    <img src="Flags/.gif"/>&nbsp;Bermuda         
-                </li>
-                <li>
-                    <img src="Flags/.gif"/>&nbsp;Bolivia        
-                </li>
-                <li>
-                    <img src="Flags/.gif"/>&nbsp;Brazil          
-                </li>
-                <li>
-                    <img src="Flags/.gif"/>&nbsp;Canada        
-                </li>
-                <li>
-                    <img src="Flags/.gif"/>&nbsp;Chile          
-                </li>
-                <li>
-                    <img src="Flags/.gif"/>&nbsp;USA          
-                </li>
-                <li>
-                    <img src="Flags/.gif"/>&nbsp;Uruguay          
                 </li>
             </div>
             </p>

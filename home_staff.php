@@ -7,7 +7,7 @@ require_once './inc_new.php';
     <div class="neoslideshow">
         <img src="imgs/Ahmad Earl Grey tea 2.png"  style="display: none;">
         <img src="imgs/ebt-winter-charm.png"  style="display: none;">
-<!--        <img src="imgs/ahmadtea_thumb.png"  style="display: none;">-->
+        <img src="imgs/ahmadtea_thumb.png"  style="display: none;">
 
     </div>    
 </div>
@@ -19,8 +19,8 @@ require_once './inc_new.php';
     <div id="body">
         <div id="left-bar">
             <ul>
-                 <li id="list1"><a href="home_staff.php" class="list"><h5>STAFF</h5></a></li>
-                <li id="list1"><a href="home.php" class="list"><h5>CUSTOMER</h5></a></li>
+                 <li id="list1"><a href="home.php" class="list"><h5>STAFF</h5></a></li>
+                <li id="list1"><a href="home_staff.php" class="list"><h5>CUSTOMER</h5></a></li>
                 </ul>
         </div>
         <div id="right-bar">
@@ -45,6 +45,7 @@ require_once './inc_new.php';
     </div>    
 </div>
 
+<a href="process/admin.php?do=logout" >Đăng xuất</a>
 
 <br/>
 

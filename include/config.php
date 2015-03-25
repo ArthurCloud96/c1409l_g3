@@ -3,7 +3,7 @@ define("DB_HOST","localhost");
 define("DB_USER","root");
 define("DB_PASS","");
 define("DB_NAME","c1409l_g3");
-define("PAGE_ROW", 10);
+define("PAGE_ROW", 12);
 define("BASE","c1409l_g3");
 session_start();
 $connection;

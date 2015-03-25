@@ -1,7 +1,4 @@
 <?php
-require_once './admin_header.php';
-?>
-<?php
 require './process/_inc.php';
 $query = "SELECT * FROM category";
 $result = execute_query($query);
@@ -12,7 +9,7 @@ $result = execute_query($query);
     <table>
 
         <tr>
-            <th >Category</th>
+            <th>Category</th>
             <td> 
                 <select name="catid">
                     <?php while ($row = mysqli_fetch_assoc($result)) { ?>
@@ -33,6 +30,11 @@ $result = execute_query($query);
             <th>Price</th>
             <td><input type="number" name="price" id="price" /></td>
         </tr>
+        
+        <tr>
+            <th>Description</th>
+            <td><input type="text" name="description" id="description" /></td>
+        </tr>
 
         <tr>
             <th>Quantity</th>
@@ -46,9 +48,4 @@ $result = execute_query($query);
     </table>
 </form>
 
-
-
-<?php
-require_once './admin_footer.php';
-?>
 

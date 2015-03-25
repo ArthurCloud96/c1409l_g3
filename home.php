@@ -7,7 +7,7 @@ require_once './inc_new.php';
     <div class="neoslideshow">
         <img src="imgs/Ahmad Earl Grey tea 2.png"  style="display: none;">
         <img src="imgs/ebt-winter-charm.png"  style="display: none;">
-<!--        <img src="imgs/ahmadtea_thumb.png"  style="display: none;">-->
+        <img src="imgs/ahmadtea_thumb.png"  style="display: none;">
 
     </div>    
 </div>
@@ -58,6 +58,7 @@ require_once './inc_new.php';
     </div>    
 </div>
 
+<a href="process/admin.php?do=logout" >Đăng xuất</a>
 
 <br/>
 

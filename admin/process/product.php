@@ -8,9 +8,9 @@ function update() {
     $productid = get("productid");
     $pname = post("pname");
     $price = post("price");
+    $description = post("description");
     $quantity = post("quantity");
-    $query = "UPDATE `product` SET `pname` = '$pname', `price`='$price', `quantity`='$quantity' WHERE `productid`='$productid'";
-
+    $query = "UPDATE `product` SET `pname` = '$pname', `price`='$price',`description`='$description', `quantity`='$quantity' WHERE `productid`='$productid'";
 
     $result = execute_query($query);
     redirect("../product_list.php");
@@ -22,8 +22,9 @@ function add_new() {
     $name = post("catid");
     $pname = post("pname");
     $price = post("price");
+    $description = post("description");
     $quantity = post("quantity");
-    $query = "INSERT INTO `product` VALUES (NULL,'$name','$pname','$price','$quantity')";
+    $query = "INSERT INTO `product` VALUES (NULL,'$name','$pname','$price','$description','$quantity')";
 
     execute_query($query);
     redirect("../product_list.php");
